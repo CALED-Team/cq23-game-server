@@ -1,2 +1,2 @@
 -r base.txt
-pygame==2.1.2
+pygame==2.4.0
