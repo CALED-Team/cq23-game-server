@@ -8,7 +8,7 @@ platformdirs==2.6.2
 pre-commit==3.3.1
 python-dotenv==0.21.0
 PyYAML==6.0
-virtualenv==20.17.1
+virtualenv==20.23.0
 pymunk==6.4.0
 pathfinding==1.0.1
 mkdocs==1.4.3
