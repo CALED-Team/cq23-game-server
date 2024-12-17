@@ -68,6 +68,7 @@ class Game:
         log_with_time("Sending map info to clients")
         self.replay_manager.set_game_info(self.space)
         comms_line = self.replay_manager.sync_object_updates_in_comms()
+        comms_line["code"] = "KH73TU"
         self.comms.post_init_world_message(comms_line)
         self.comms.terminate_init_world_sequence()
 
